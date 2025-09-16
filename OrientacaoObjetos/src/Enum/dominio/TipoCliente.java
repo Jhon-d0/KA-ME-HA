@@ -19,4 +19,16 @@ public enum TipoCliente {
                 ", valor=" + valor +
                 '}';
     }
+
+    public static TipoCliente gettipocliente(String buscarpeloUsuario){
+        for (TipoCliente tipoCliente : values()) {
+            if(tipoCliente.pessoa.equals(buscarpeloUsuario)){
+                return tipoCliente;
+            }
+
+        }
+
+        return null;
+    }
+
 }

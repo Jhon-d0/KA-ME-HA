@@ -20,7 +20,6 @@ public enum TipoDePagamento {
         }
     };
 
-    public static TipoCliente
 
     public abstract double CalcularDesconto(double valor);
 }

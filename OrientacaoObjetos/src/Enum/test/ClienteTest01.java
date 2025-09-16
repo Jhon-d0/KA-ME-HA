@@ -13,5 +13,8 @@ public class ClienteTest01 {
         System.out.println(c1);
         System.out.println(c2);
         System.out.println(c3);
+        TipoCliente tipoCliente = TipoCliente.valueOf("Pessoa Juridica");
+        System.out.println(tipoCliente);
+        System.out.println(TipoCliente.gettipocliente("Pessoa Juridica"));
     }
 }
