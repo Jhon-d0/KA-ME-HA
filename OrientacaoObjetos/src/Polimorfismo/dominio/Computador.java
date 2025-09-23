@@ -1,14 +1,25 @@
 package Polimorfismo.dominio;
 
 public class Computador extends Produto{
+    private String processador;
 
 
-    public Computador(String nome, double valor) {
+
+    public Computador(String nome, double valor, String processador) {
         super(nome, valor);
+        this.processador = processador;
     }
 
     @Override
     public double Calcularimposto() {
-        return 0;
+        return this.getValor() * 0.05;
+    }
+
+    public String getProcessador() {
+        return processador;
+    }
+
+    public void setProcessador(String processador) {
+        this.processador = processador;
     }
 }
