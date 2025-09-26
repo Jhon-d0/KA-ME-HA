@@ -1,7 +1,5 @@
 package Enum.dominio;
 
-import Exercicios.ex3.Sexo;
-
 public class Cliente {
 
     public enum Genero{

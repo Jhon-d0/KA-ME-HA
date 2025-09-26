@@ -10,7 +10,7 @@ public class ProdutoTest02 {
     public static void main(String[] args) {
         Produto produto = new Computador("Accer 5", 3500, "5r");
         Computador c1 = new Computador("Computador 1", 5000, "kg");
-        Produto prodto02 = new Tomate("Alessandro", 20);
+        Produto prodto02 = new Tomate("Alessandro", 20, "12/31/2313");
         Televisao tv01 = new Televisao("Samsung 50\"", 6000);
 
         System.out.println(produto.getNome());

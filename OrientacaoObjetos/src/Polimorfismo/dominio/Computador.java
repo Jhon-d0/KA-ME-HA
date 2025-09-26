@@ -15,6 +15,11 @@ public class Computador extends Produto{
         return this.getValor() * 0.05;
     }
 
+    @Override
+    public void Test() {
+
+    }
+
     public String getProcessador() {
         return processador;
     }
